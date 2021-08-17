@@ -1,0 +1,285 @@
+.header-top__image{
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-image: url('../images/header_top_bg.png');
+}
+.header-top__image-top{
+        width: 100%;
+}
+.header-top__bird{
+        display: flex;
+        width: 30%;
+}
+.header-top__bird img{
+        width: 50px;
+}
+.header-top__yellow{
+        padding-top: 15px;
+        margin-left: 40px;
+}
+.header-top__green{
+        padding-top: 45px;
+}
+.header-top__red{
+        padding-left: 100px;
+        padding-top: 5px;
+}
+.header-top__image-center{
+        display: flex;
+        padding: 25px 50px;
+}
+.header-top__illust{
+        width: 37%;
+        background-repeat: no-repeat;
+        background-size: contain;
+}
+.header-top__logo-illust{
+        text-align: center;
+}
+.header-top__logo{
+        width: 150px;
+}
+
+/* menu */
+.header-top__menu{
+        display: flex;
+        padding: 0 95px;
+        justify-content: center
+}
+.header-top_l{
+        display: flex;
+}
+.header-top_r{
+        display: flex;
+}
+.header-top__item{
+        border-left: 1px solid #E8E8E8;
+        border-width: 1px;
+        width: 100px;
+        height: 100px;
+        text-align: center;
+}
+.header-top__item--lass{
+        border-right: 1px solid #E8E8E8;
+        border-width: 1px;
+}
+.header-top__item img{
+        width: 100%;
+}
+.header-top__item div{
+        padding: 0px 20px;
+}
+.header-top__item div p{
+        text-transform: uppercase;      
+        font-size: 11px;
+}
+.header-top__item div span{
+        text-transform: uppercase;
+        color: rgba(255, 0, 0, 0.562);
+        font-size: 10px;
+}
+.header-top__item--center{
+        width: 20%;
+}
+.header-top__item--center div span{
+        color: rgba(0, 0, 255, 0.623);
+}
+.header-top__item--center img{
+        width: 100%;
+}
+/* menu */
+
+/* section */
+.content__top{
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0 0 50px 0;
+        background-position: center; 
+        height: 300px;
+        position: relative;
+        background-image: url('https://elite-symbol.com/wp-content/uploads/2020/02/rua-tay.jpg')
+}
+
+.content__image-top{
+        display: flex;
+        justify-content: space-between; 
+        height: 80px;
+}
+.content__hasei-icon{
+        text-align: center;
+}
+.content__hasei-icon img{
+        width: 3%;
+}
+.content__main-title{
+        text-align: center;
+        position: relative;
+        background-repeat: no-repeat;
+        background-size:contain;
+}
+.content__main-title img{
+        width: 12%;
+        position: relative;
+}
+.logo2019_sp{
+        position: absolute;
+        top: 25px;
+        left: 630px;
+}
+.logo2019_sp span{
+        text-transform: uppercase;
+        color: white;
+}
+.content__image-bottom{
+        height: 150px;
+        background-image: url('../images/main_illust.png');
+        position: absolute;
+        width: 99%;
+        margin-top: -85px; 
+}
+.content__clody-green{
+        margin-top: 100px;
+}
+.content__image-b{
+        display: flex;
+        justify-content: space-between;
+}
+.content__image-b img{
+        width: 10%;
+        height: 10%;
+}
+.content__center{
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0;
+        background-image: url('../images/contents_bg.png')
+}
+/* section */
+/* footer */
+.footer__nami{
+        width: 100%;
+        margin-bottom: -10px;
+}
+.footer__center{
+        text-align: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 50px 0;
+        background-image: url('../images/footer_illust_bg2.png');
+}
+.footer__image{
+        width: 150px;
+        margin-top: -65px;   
+}
+.footer-bottom{
+        position: relative;
+        top: -10px;
+}
+.footer-bottom img{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        margin-top: 0px;
+        width: 100%;
+}
+.footer__title{
+        color:rgba(0, 0, 255, 0.623);
+}
+.footer__tell{
+        display: flex;
+        justify-content: center;
+}
+.footer__tell img{
+        height: 25px;
+        margin-top: 30px;
+        margin-right: 10px;
+}
+.footer__tag{
+        margin: 15px;
+}
+.footer__tag span{
+        border: solid 1px rgba(0, 0, 255, 0.623);
+        border-radius: 10px;
+        padding: 4px;
+        background: white;
+        color: rgba(0, 0, 255, 0.623);
+}
+.footer__description{
+        margin: 15px;
+}
+/* footer */
+@media (max-width: 1025px) {
+        .header-top__image-center{
+                
+                padding: unset;
+        }
+        .header-top__illust{
+                margin-left: unset;
+        }
+        .header-top__red{
+                padding-left: unset;
+        }
+        .header-top__bird img {
+                width: 30px;
+        }
+        .content__contact{
+                display: none;
+        }
+
+}
+@media (max-width: 600px){
+        .header-top__logo {
+                width: 100px;
+        }
+        .header-top__yellow{
+                margin-left: unset;
+        }
+        .header-top__menu{
+                display: unset;
+                text-align: center;
+        }
+        .header-top__menu div{
+                text-align: center;
+        }
+        .header-top_l{
+                padding: 0px 134px;
+        }
+        .header-top_r{
+                padding: 0px 134px;
+        }
+        .content__contact{
+                display: none;
+        }
+        .header-top__item--center{
+                margin: 10px 221px;
+                border-right: 1px solid #E8E8E8;   
+        }
+        
+}
+@media (max-width: 480px){
+        .header-top__logo {
+                width: 80px;
+        }
+        .header-top_l{
+                padding: 0px 98px;
+        }
+        .header-top_r{
+                padding: 0px 98px;
+        }
+        .header-top__item--center{
+                margin: 10px 176px;
+                border-right: 1px solid #E8E8E8;   
+        }
+}
+@media (max-width: 480px){
+        .header-top_l{
+                padding: unset;
+        }
+        .header-top_r{
+                padding: unset;
+        }
+        .header-top__item--center{
+                margin: 10px 100px;
+                border-right: 1px solid #E8E8E8;   
+        }
+}
